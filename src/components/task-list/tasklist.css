@@ -1,0 +1,41 @@
+.task-list {
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    background-color: bisque;
+    padding: 0 60px;
+}
+
+.task-item__wrap {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    min-width: 150px;
+    justify-content: space-between;
+}
+
+.task-item__name::before {
+    content: '•';
+    padding-right: 10px;
+}
+
+.task-item__link {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.check-task {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: solid 1px black;
+}
+
+.done-check {
+    margin: 0;
+    display: block;
+}
