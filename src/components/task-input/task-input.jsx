@@ -4,6 +4,7 @@ import moment from 'moment';
 
 import './taskinput.css'
 import { ActionCreator } from '../../redux/modules/list';
+const aa = 2;
 
 class TaskInput extends Component {
   constructor(props) {
