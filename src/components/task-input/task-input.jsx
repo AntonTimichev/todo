@@ -9,7 +9,8 @@ class TaskInput extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      text: ''
+      text: '',
+      some: ''
     };
     this.addTodo = this.addTodo.bind(this);
     this.updateText = this.updateText.bind(this);
